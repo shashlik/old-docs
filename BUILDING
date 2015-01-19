@@ -141,6 +141,9 @@ three components that might not be on everybodys computers:
  - CMake, version 2.8 minimum
  - Qt 5.3
  - KDE Frameworks 5 (KF5)
+ - Java SDK version 6
+   This is due to the requirement in KitKat for version 6. Newer or older won't
+   suffice, it has to be a version 6 (e.g. openjdk's 1.6 sdk).
 
 This instruction will from here on assume that you have these installed
 correctly.  If not, you will have to install them (probably build yourself)
