@@ -93,3 +93,7 @@ launcher integration, windowed modes, etc. Some of these things will be a bit
 factors Plasma supports map to the Android concept. This is why Google does 
 not use Android for their Chrome Books, for instance. In any case, I've 
 compiled a short list of targets for this as well.
+
+
+* Interesting Links:
+* http://www.gamasutra.com/blogs/RuthanielVandenNaar/20140612/219170/Current_of_Androidx86_PC_OS_interview_with_ChihWei_Huang.php
