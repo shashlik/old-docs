@@ -4,6 +4,7 @@ Goal: Get Flappy Bird to run
 
 Components
  + DalvikVM
+   - core.jar, framework.jar, ext.jar
  + Zygote / Launcher
     - Preload Java classes
  + Installer?

@@ -19,6 +19,10 @@ Tasks to reach next milestone
       instead of copying it
     + Create a binder library but without connections to        ----
       the kernel
+    + Create the system .jar and .odex files (core, framework,  ----
+      ext (at least, more may be required))
+    + Recreate dex-preopt as cmake command                      ----
+      (script requires full android build system, prereq for ^)
 
  * Check if the provided file is a correct APK                  ----
     + Check for the manifest
