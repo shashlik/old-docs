@@ -34,16 +34,16 @@ at this level (see below under Building the sources).
 Then proceed to download the git and svn repositories as follows.  
 
 
-1. The 4 repositories from the Shashlik project on github.
+1. The 5 repositories from the Shashlik project on github.
 
-Shashlik has 3 repos from the Google Android sources copied into Github. These
-3 repos are Dalvik, Android Core and Android Libcore. The changes in these
-repositories will be kept as small as possible so that it will be easier to
-upgrade to a later version later. The main code written for Shashlik is
-created in the 4th repository of the project named (surprise!) shaslik.
+Shashlik has 4 repos from the Google Android sources copied into Github. These
+4 repos are Dalvik, Android Core, Android Libcore and Frameworks Native. The
+changes in these repositories will be kept as small as possible so that it will
+be easier to upgrade to a later version later. The main code written for Shashlik
+is created in the 5th repository of the project named (surprise!) shaslik.
 
 The main page of the project is https://github.com/shashlik. Here you will
-find links to all 4 repositories. Since the shashlik repos are private you
+find links to all 5 repositories. Since the shashlik repos are private you
 will need to give your username and password to clone them.
 
   git clone https://github.com/shashlik/shashlik.git
@@ -107,7 +107,34 @@ have not gone down that route.
 
   git clone https://android.googlesource.com/platform/bionic
 
-This repository is used without modification, and the master branch is tracked.
+We use the kitkat tag for this one, meaning you need to run:
+
+  git checkout android-4.4.4_r2.0.1
+
+which will leave you with a detached head
+
+
+6. skia
+
+Skia is a graphics library used extensively throughout android (and chrome/chromium),
+and we specifically need the kitkat tag of it (as above), as the android libraries
+depend on changes made to the library.
+
+  git clone https://android.googlesource.com/platform/external/skia
+  git checkout android-4.4.4_r2.0.1
+
+  -- NOTE: We will need a custom copy of this, as we need the following changes:
+    Granted that these are include files, perhaps we can simply store these two locally
+  include/core/SkUserConfig.h:46
+    -#define SK_BUILD_FOR_ANDROID_FRAMEWORK
+    +// #define SK_BUILD_FOR_ANDROID_FRAMEWORK
+  include/core/SkUserConfig.h:190
+    -#define SK_SFNTLY_SUBSETTER "sample/chromium/font_subsetter.h"
+    +// #define SK_SFNTLY_SUBSETTER "sample/chromium/font_subsetter.h"
+  include/gpu/GrTypes.h289
+    -    #error "Skia gpu currently assumes little endian"
+    +//     #error "Skia gpu currently assumes little endian"
+
 
 
 Building the Sources
@@ -137,13 +164,14 @@ Prerequisites
 -------------
 
 Aside from using a normal Linux development system (make, gcc, etc) you need
-three components that might not be on everybodys computers:
+a variety of components that might not be on everybodys computers:
  - CMake, version 2.8 minimum
  - Qt 5.3
  - KDE Frameworks 5 (KF5)
  - Java SDK version 6
    This is due to the requirement in KitKat for version 6. Newer or older won't
    suffice, it has to be a version 6 (e.g. openjdk's 1.6 sdk).
+ - Fontconfig, Freetype, giflib, libjpeg, libwebp, harfbuzz, libGLU
 
 This instruction will from here on assume that you have these installed
 correctly.  If not, you will have to install them (probably build yourself)
@@ -186,7 +214,8 @@ should be on the correct branch already.
 * frameworks-native           branch kitkat-release
 * safe-iop:           tag http://safe-iop.googlecode.com/svn/tags/r0.3.1
 * libnativehelper:            branch kitkat-release
-* bionic:                     branch master
+* bionic:                     tag android-4.4.4_r2.0.1
+* skia:                       tag android-4.4.4_r2.0.1
 
 As you can see above, the repo shashlik itself is the one where we try to put
 all of our changes so that should be on master branch unless you are working
