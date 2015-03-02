@@ -7,10 +7,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="4256.7891"
-   height="2709.2188"
+   width="4232.3545"
+   height="2718.2217"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
@@ -59,6 +60,20 @@
          transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
          inkscape:connector-curvature="0" />
     </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-3"
+       style="overflow:visible">
+      <path
+         id="path4151-3"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -67,9 +82,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="1634.8973"
-     inkscape:cy="1368.074"
+     inkscape:zoom="0.5"
+     inkscape:cx="1915.7126"
+     inkscape:cy="1311.2602"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -90,7 +105,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -98,548 +113,149 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(1684.2892,703.90625)">
+     transform="translate(1684.2892,703.9153)">
     <text
        xml:space="preserve"
-       style="font-size:107.62947845px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Bold"
-       x="-1925.7013"
-       y="1309.1643"
-       id="text2997"
-       sodipodi:linespacing="125%"
-       transform="matrix(0,-1,1,0,0,0)"><tspan
-         sodipodi:role="line"
-         id="tspan2999"
-         x="-1925.7013"
-         y="1309.1643">Our code</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:36.49251175px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-       x="963.81647"
-       y="783.86084"
+       style="font-size:23.05838776px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+       x="-9.1998138"
+       y="238.00096"
        id="text3081"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3083"
-         x="963.81647"
-         y="783.86084" /></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3120"
-       y="1907.0002"
-       x="1704.6251"
-       style="font-size:92.25383759px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-       xml:space="preserve"><tspan
-         id="tspan3122"
-         y="1907.0002"
-         x="1704.6251"
-         sodipodi:role="line">Shashlik Launcher</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:11.5317297;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
-       d="m 1277.8823,1424.2965 0,-386.8784 c 0,-23.4248 18.8582,-42.28308 42.2831,-42.28308 l 1199.2998,0 c 23.4248,0 42.283,18.85828 42.283,42.28308 l 0,914.8505 c 0,23.4247 -18.8582,42.283 -42.283,42.283 l -1199.2998,0 c -23.4249,0 -42.2831,-18.8583 -42.2831,-42.283"
-       id="rect3351"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csssssssc" />
+         x="-9.1998138"
+         y="238.00096" /></text>
     <g
-       id="g3343"
-       transform="matrix(3.8439096,0,0,3.8439096,-1097.8406,28.204808)">
+       id="g4131"
+       transform="translate(-1768,-984)">
       <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         x="702.46069"
-         y="360.10034"
-         id="text3124"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3126"
+         transform="matrix(0,-1,1,0,0,0)"
+         sodipodi:linespacing="125%"
+         id="text2997"
+         y="209.01384"
+         x="-959.49146"
+         style="font-size:68.00743866px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Bold"
+         xml:space="preserve"><tspan
+           y="209.01384"
+           x="-959.49146"
+           id="tspan2999"
+           sodipodi:role="line">Our code</tspan></text>
+      <path
+         sodipodi:nodetypes="csssssssc"
+         inkscape:connector-curvature="0"
+         id="rect3351"
+         d="m 189.2478,642.67067 0,-244.45542 c 0,-14.80134 11.91586,-26.71726 26.71726,-26.71726 l 757.79712,0 c 14.80134,0 26.71722,11.91592 26.71722,26.71726 l 0,578.06319 c 0,14.80128 -11.91588,26.71716 -26.71722,26.71716 l -757.79712,0 c -14.8014,0 -26.71726,-11.91588 -26.71726,-26.71716"
+         style="fill:none;stroke:#000000;stroke-width:7.28651142;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1" />
+      <g
+         transform="matrix(2.4288369,0,0,2.4288369,-1311.8914,-274.12099)"
+         id="g3343">
+        <text
+           sodipodi:linespacing="125%"
+           id="text3124"
+           y="360.10034"
            x="702.46069"
-           y="360.10034">propertiesd</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         x="702.46069"
-         y="388.61523"
-         id="text3128"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3130"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           xml:space="preserve"><tspan
+             y="360.10034"
+             x="702.46069"
+             id="tspan3126"
+             sodipodi:role="line">propertiesd</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3128"
+           y="388.61523"
            x="702.46069"
-           y="388.61523">libshashlikutils</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         x="702.46069"
-         y="417.13007"
-         id="text3132"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3134"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           xml:space="preserve"><tspan
+             y="388.61523"
+             x="702.46069"
+             id="tspan3130"
+             sodipodi:role="line">libshashlikutils</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3132"
+           y="417.13007"
            x="702.46069"
-           y="417.13007">libapk</tspan></text>
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-size:92.25383759px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-       x="1342.2679"
-       y="1137.0127"
-       id="text3140"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3142"
-         x="1342.2679"
-         y="1137.0127">CMake build system</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3144"
-       y="-1597.516"
-       x="-1930.4917"
-       style="font-size:107.62947845px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Bold"
-       xml:space="preserve"
-       transform="matrix(0,-1,1,0,0,0)"><tspan
-         y="-1597.516"
-         x="-1930.4917"
-         sodipodi:role="line"
-         id="tspan3148">Android code</tspan></text>
-    <g
-       id="g3310"
-       transform="matrix(3.8439096,0,0,3.8439096,35.521168,-280.6441)">
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           xml:space="preserve"><tspan
+             y="417.13007"
+             x="702.46069"
+             id="tspan3134"
+             sodipodi:role="line">libapk</tspan></text>
+      </g>
       <text
          sodipodi:linespacing="125%"
-         id="text3009"
-         y="-4.5424757"
-         x="-387.53928"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+         id="text3140"
+         y="461.14539"
+         x="229.93092"
+         style="font-size:58.29209137px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
          xml:space="preserve"><tspan
-           y="-4.5424757"
-           x="-387.53928"
-           id="tspan3011"
-           sodipodi:role="line">Bionic</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3013"
-         y="24.240458"
-         x="-387.53928"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="24.240458"
-           x="-387.53928"
-           id="tspan3015"
-           sodipodi:role="line">safe-iop</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3017"
-         y="53.023392"
-         x="-387.53928"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="53.023392"
-           x="-387.53928"
-           id="tspan3019"
-           sodipodi:role="line">libutils</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3021"
-         y="81.80632"
-         x="-387.53928"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="81.80632"
-           x="-387.53928"
-           id="tspan3023"
-           sodipodi:role="line">libcutils</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3025"
-         y="-33.325409"
-         x="-387.53928"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="-33.325409"
-           x="-387.53928"
-           id="tspan3027"
-           sodipodi:role="line">Skia</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3029"
-         y="110.58926"
-         x="-387.53928"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="110.58926"
-           x="-387.53928"
-           id="tspan3031"
-           sodipodi:role="line">libpixelfinger</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3033"
-         y="139.37219"
-         x="-387.53928"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="139.37219"
-           x="-387.53928"
-           id="tspan3035"
-           sodipodi:role="line">libnativehelper</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3037"
-         y="168.15512"
-         x="-387.53928"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="168.15512"
-           x="-387.53928"
-           id="tspan3039"
-           sodipodi:role="line">liblog</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3041"
-         y="196.93805"
-         x="-387.53928"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="196.93805"
-           x="-387.53928"
-           id="tspan3043"
-           sodipodi:role="line">libjavacore</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3045"
-         y="225.72099"
-         x="-387.53928"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="225.72099"
-           x="-387.53928"
-           id="tspan3047"
-           sodipodi:role="line">libdex</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3049"
-         y="254.50392"
-         x="-387.53928"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="254.50392"
-           x="-387.53928"
-           id="tspan3051"
-           sodipodi:role="line">libcorkscrew</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3053"
-         y="283.28687"
-         x="-387.53928"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="283.28687"
-           x="-387.53928"
-           id="tspan3055"
-           sodipodi:role="line">libbinder</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3057"
-         y="312.06979"
-         x="-387.53928"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="312.06979"
-           x="-387.53928"
-           id="tspan3059"
-           sodipodi:role="line">libandroidfw</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         x="-387.53928"
-         y="340.85272"
-         id="text3104"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3106"
-           x="-387.53928"
-           y="340.85272">libjni</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Bold"
-         x="-399.17188"
-         y="-69.325409"
-         id="text3156"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3158"
-           x="-399.17188"
-           y="-69.325409">Support Libraries</tspan></text>
-      <path
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="rect3176"
-         d="m -398,-63.887817 199.5,0 -194.5,2.25 0,403.999997 -5,0 z" />
-    </g>
-    <g
-       id="g3295"
-       transform="matrix(3.8439096,0,0,3.8439096,35.521168,-292.17584)">
-      <text
-         sodipodi:linespacing="125%"
-         id="text3061"
-         y="450.61691"
-         x="-388.59564"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="450.61691"
-           x="-388.59564"
-           id="tspan3063"
-           sodipodi:role="line">hprof-conv</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3069"
-         y="478.64664"
-         x="-388.59564"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="478.64664"
-           x="-388.59564"
-           id="tspan3071"
-           sodipodi:role="line">dexlist</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3073"
-         y="507.16147"
-         x="-388.59564"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="507.16147"
-           x="-388.59564"
-           id="tspan3075"
-           sodipodi:role="line">dexdump</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         x="-388.59564"
-         y="539.67633"
-         id="text3112"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3114"
-           x="-388.59564"
-           y="539.67633">dmtracedump</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3116"
-         y="569.67633"
-         x="-388.59564"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="569.67633"
-           x="-388.59564"
-           id="tspan3118"
-           sodipodi:role="line">gdbjithelper</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Bold"
-         x="-399.09564"
-         y="419.36691"
-         id="text3172"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3174"
-           x="-399.09564"
-           y="419.36691">Development tools</tspan></text>
-      <path
-         d="m -397.30635,424.18577 216.25,0 -211.25,2.25 0,149.5 -5,0 z"
-         id="path3179"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccccc" />
-    </g>
-    <g
-       id="g3268"
-       transform="matrix(3.8439096,0,0,3.8439096,-18.293559,-61.541253)">
-      <text
-         sodipodi:linespacing="125%"
-         id="text3065"
-         y="67.712036"
-         x="-23.650188"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="67.712036"
-           x="-23.650188"
-           id="tspan3067"
-           sodipodi:role="line">dx</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3077"
-         y="127.25653"
-         x="-23.650188"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           y="127.25653"
-           x="-23.650188"
-           id="tspan3079"
-           sodipodi:role="line">aidl</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         x="-23.650188"
-         y="97.484283"
-         id="text3108"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3110"
-           x="-23.650188"
-           y="97.484283">dexopt</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Bold"
-         x="-32.367706"
-         y="38.308228"
-         id="text3160"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3162"
-           x="-32.367706"
-           y="38.308228">Build system tools</tspan></text>
-      <path
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="path3181"
-         d="m -30.31793,43.762322 209.17893,0 -204.17893,2.25 0,84.799728 -5,0 z" />
-    </g>
-    <g
-       id="g3279"
-       transform="matrix(3.8439096,0,0,3.8439096,-106.70349,-299.86365)">
-      <text
-         sodipodi:linespacing="125%"
-         id="text3001"
-         y="335.58557"
-         x="3.4607239"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         xml:space="preserve"><tspan
-           id="tspan3005"
-           y="335.58557"
-           x="3.4607239"
-           sodipodi:role="line">Dalvik</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-         x="3.4607239"
-         y="365.85272"
-         id="text3152"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3154"
-           x="3.4607239"
-           y="365.85272">java frameworks</tspan><tspan
-           id="tspan3193"
-           sodipodi:role="line"
-           x="3.4607239"
-           y="395.85272">- bouncycastle</tspan><tspan
-           id="tspan3242"
-           sodipodi:role="line"
-           x="3.4607239"
-           y="425.85272">- conscrypt</tspan><tspan
-           id="tspan3244"
-           sodipodi:role="line"
-           x="3.4607239"
-           y="455.85272">- core</tspan><tspan
-           id="tspan3248"
-           sodipodi:role="line"
-           x="3.4607239"
-           y="485.85272">- ext</tspan><tspan
-           id="tspan3195"
-           sodipodi:role="line"
-           x="3.4607239"
-           y="515.85272">- framework</tspan><tspan
-           id="tspan3197"
-           sodipodi:role="line"
-           x="3.4607239"
-           y="545.85272">- framework2</tspan><tspan
-           id="tspan3217"
-           sodipodi:role="line"
-           x="3.4607239"
-           y="575.85272">- okhttp</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Bold"
-         x="-4.5392761"
-         y="303.58557"
-         id="text3168"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           x="-4.5392761"
-           y="303.58557"
-           id="tspan3170">Android Virtual Machine</tspan></text>
-      <path
-         d="m -5.5691927,310.09894 282.3644827,0 -277.36448265,2.25 0,266.75 -5.00000005,0 z"
-         id="path3183"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccccc" />
+           y="461.14539"
+           x="229.93092"
+           id="tspan3142"
+           sodipodi:role="line">CMake build system</tspan></text>
+      <g
+         id="g3367">
+        <text
+           sodipodi:linespacing="125%"
+           id="text3120"
+           y="947.67487"
+           x="458.89221"
+           style="font-size:58.29209137px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           xml:space="preserve"><tspan
+             id="tspan3122"
+             y="947.67487"
+             x="458.89221"
+             sodipodi:role="line">Shashlik Launcher</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:58.29209137px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="458.89221"
+           y="878.37842"
+           id="text4248"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             x="458.89221"
+             y="878.37842"
+             id="tspan4250">Shashlik JNI</tspan></text>
+      </g>
     </g>
     <path
-       sodipodi:nodetypes="csssssssc"
-       inkscape:connector-curvature="0"
-       id="path4122"
-       d="m -1622.2819,1217.1931 0,-1868.05954 c 0,-23.42478 18.8582,-42.28299 42.283,-42.28299 l 2585.5077,0 c 23.4248,0 42.283,18.85821 42.283,42.28299 l 0,2599.05784 c 0,23.4248 -18.8582,42.2829 -42.283,42.2829 l -2585.5077,0 c -23.4248,0 -42.283,-18.8581 -42.283,-42.2829"
-       style="fill:none;stroke:#000000;stroke-width:11.5317297;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:7.687819;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
-       d="m 712.04927,59.012136 c 685.35043,0 661.25683,775.936734 661.15243,968.665264"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
+       d="m 2065.5345,279.81104 c 0,-433.04983 -249.4371,-841.75993 -3032.0669,-841.75993"
        id="path4124"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
-       style="font-size:153.75637817px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="1165.6306"
-       y="208.92459"
+       style="font-size:62.74094009px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1759.0118"
+       y="-252.00153"
        id="text4570"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="1165.6306"
-         y="208.92459"
+         x="1759.0118"
+         y="-252.00153"
          id="tspan4574"
-         style="font-size:76.87818909px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans">Used by CMake during</tspan><tspan
+         style="font-size:31.37047005px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans">Used by CMake during</tspan><tspan
          sodipodi:role="line"
-         x="1165.6306"
-         y="305.02234"
+         x="1759.0118"
+         y="-212.78844"
          id="tspan4578"
-         style="font-size:76.87818909px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans">    build and install steps</tspan><tspan
+         style="font-size:31.37047005px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans">       build and install steps</tspan><tspan
          sodipodi:role="line"
-         x="1165.6306"
-         y="401.12006"
-         style="font-size:76.87818909px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         id="tspan4580">       to generate the</tspan><tspan
+         x="1759.0118"
+         y="-173.57535"
+         style="font-size:31.37047005px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+         id="tspan4580">              to generate the</tspan><tspan
          sodipodi:role="line"
-         x="1165.6306"
-         y="497.2178"
-         style="font-size:76.87818909px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         id="tspan4582">         java frameworks</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text5330"
-       y="-510.86465"
-       x="-394.7041"
-       style="font-size:153.75637817px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       xml:space="preserve"><tspan
-         id="tspan5338"
-         style="font-size:76.87818909px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         y="-510.86465"
-         x="-394.7041"
-         sodipodi:role="line">Android sources fetched separately</tspan><tspan
-         style="font-size:76.87818909px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         y="-414.76691"
-         x="-394.7041"
-         sodipodi:role="line"
-         id="tspan5349">and built using our CMake build</tspan><tspan
-         style="font-size:76.87818909px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         y="-318.66919"
-         x="-394.7041"
-         sodipodi:role="line"
-         id="tspan5837">system, allowing for tight control of all</tspan><tspan
-         style="font-size:76.87818909px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         y="-222.57144"
-         x="-394.7041"
-         sodipodi:role="line"
-         id="tspan5841">used functionality and dependencies</tspan></text>
+         x="1759.0118"
+         y="-134.36226"
+         style="font-size:31.37047005px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+         id="tspan4582">                    java frameworks</tspan></text>
     <g
        id="g5589"
-       transform="matrix(2.3694061,0,0,2.3694061,-71.299419,-725.41947)">
+       transform="matrix(17.378026,0,0,17.378026,-17211.397,-13185.291)">
       <text
          sodipodi:linespacing="125%"
          id="text5381"
@@ -766,7 +382,7 @@
     </g>
     <g
        id="g5691"
-       transform="matrix(0.00858757,0,0,0.00858757,2295.8732,1117.9909)">
+       transform="matrix(0.67950936,0,0,0.67950936,-1185.4887,518.0412)">
       <text
          sodipodi:linespacing="125%"
          id="text5641"
@@ -852,349 +468,870 @@
            id="tspan5659"
            sodipodi:role="line">Pre-optimise (dexopt)</tspan></text>
     </g>
-    <text
-       xml:space="preserve"
-       style="font-size:31.69388199px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="-1186.5234"
-       y="-336.69815"
-       id="text5708"
-       sodipodi:linespacing="125%"><tspan
-         id="tspan5716"
-         sodipodi:role="line"
-         x="-1186.5234"
-         y="-336.69815"
-         style="font-size:15.84694099px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans">We only build explicitly required</tspan><tspan
-         sodipodi:role="line"
-         x="-1186.5234"
-         y="-316.88947"
-         style="font-size:15.84694099px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         id="tspan5727">bits, which a standard libc does</tspan><tspan
-         sodipodi:role="line"
-         x="-1186.5234"
-         y="-297.08078"
-         style="font-size:15.84694099px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         id="tspan5729">not supply (e.g. strlcat, strlcpy)</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text5731"
-       y="-447.92197"
-       x="-1284.5044"
-       style="font-size:32.16117477px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       xml:space="preserve"><tspan
-         id="tspan5737"
-         style="font-size:16.08058739px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         y="-447.92197"
-         x="-1284.5044"
-         sodipodi:role="line">Only the explicitly required parts</tspan><tspan
-         style="font-size:16.08058739px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         y="-427.82123"
-         x="-1284.5044"
-         sodipodi:role="line"
-         id="tspan5744">are built, from the android specific</tspan><tspan
-         style="font-size:16.08058739px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         y="-407.72049"
-         x="-1284.5044"
-         sodipodi:role="line"
-         id="tspan5746">branch in the android external repository</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text5769"
-       y="752.39594"
-       x="-1009.6594"
-       style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-       xml:space="preserve"><tspan
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         y="752.39594"
-         x="-1009.6594"
-         sodipodi:role="line"
-         id="tspan5785">Modified to be</tspan><tspan
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         y="763.66528"
-         x="-1009.6594"
-         sodipodi:role="line"
-         id="tspan5793">possible to build without</tspan><tspan
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         y="774.93463"
-         x="-1009.6594"
-         sodipodi:role="line"
-         id="tspan5789">a full Android system</tspan><tspan
-         id="tspan5775"
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         y="786.20398"
-         x="-1009.6594"
-         sodipodi:role="line">underneath.</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-       x="219.34058"
-       y="933.39594"
-       id="text5795"
-       sodipodi:linespacing="125%"><tspan
-         id="tspan5797"
-         sodipodi:role="line"
-         x="219.34058"
-         y="933.39594"
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans">Modified to be</tspan><tspan
-         id="tspan5799"
-         sodipodi:role="line"
-         x="219.34058"
-         y="944.66528"
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans">possible to build without</tspan><tspan
-         id="tspan5801"
-         sodipodi:role="line"
-         x="219.34058"
-         y="955.93463"
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans">a full Android system</tspan><tspan
-         sodipodi:role="line"
-         x="219.34058"
-         y="967.20398"
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         id="tspan5803">underneath.</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-       x="-1073.2991"
-       y="-25.421524"
-       id="text5805"
-       sodipodi:linespacing="125%"><tspan
-         id="tspan5807"
-         sodipodi:role="line"
-         x="-1073.2991"
-         y="-25.421524"
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans">Modified to be</tspan><tspan
-         id="tspan5809"
-         sodipodi:role="line"
-         x="-1073.2991"
-         y="-14.152176"
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans">possible to build without</tspan><tspan
-         id="tspan5811"
-         sodipodi:role="line"
-         x="-1073.2991"
-         y="-2.8828278"
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans">a full Android system</tspan><tspan
-         sodipodi:role="line"
-         x="-1073.2991"
-         y="8.3865204"
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         id="tspan5813">underneath.</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text5815"
-       y="640.67303"
-       x="-854.09595"
-       style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-       xml:space="preserve"><tspan
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         y="640.67303"
-         x="-854.09595"
-         sodipodi:role="line"
-         id="tspan5817">Modified to be</tspan><tspan
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         y="651.94238"
-         x="-854.09595"
-         sodipodi:role="line"
-         id="tspan5819">possible to build without</tspan><tspan
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         y="663.21173"
-         x="-854.09595"
-         sodipodi:role="line"
-         id="tspan5821">a full Android system</tspan><tspan
-         id="tspan5823"
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         y="674.48108"
-         x="-854.09595"
-         sodipodi:role="line">underneath.</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-       x="-1162.3945"
-       y="308.33286"
-       id="text5825"
-       sodipodi:linespacing="125%"><tspan
-         id="tspan5827"
-         sodipodi:role="line"
-         x="-1162.3945"
-         y="308.33286"
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans">Modified to be</tspan><tspan
-         id="tspan5829"
-         sodipodi:role="line"
-         x="-1162.3945"
-         y="319.6022"
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans">possible to build without</tspan><tspan
-         id="tspan5831"
-         sodipodi:role="line"
-         x="-1162.3945"
-         y="330.87155"
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans">a full Android system</tspan><tspan
-         sodipodi:role="line"
-         x="-1162.3945"
-         y="342.1409"
-         style="font-size:9.01547337px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans"
-         id="tspan5833">underneath.</tspan></text>
-    <text
-       transform="matrix(0,-1,1,0,0,0)"
-       sodipodi:linespacing="125%"
-       id="text5843"
-       y="1552.2998"
-       x="-1908.4298"
-       style="font-size:6.75128317px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Bold"
-       xml:space="preserve"><tspan
-         y="1552.2998"
+    <g
+       id="g3253"
+       transform="matrix(7.0745517,0,0,7.0745517,-12546,-12285.702)">
+      <text
+         xml:space="preserve"
+         style="font-size:6.75128317px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Bold"
          x="-1908.4298"
-         id="tspan5845"
-         sodipodi:role="line">Shashlik Launcher</tspan></text>
-    <path
-       sodipodi:nodetypes="csssssssc"
-       inkscape:connector-curvature="0"
-       id="path5847"
-       d="m 1550.3377,1846.3674 0,-5.9515 c 0,-1.4694 1.183,-2.6523 2.6523,-2.6523 l 141.2175,0 c 1.4694,0 2.6523,1.1829 2.6523,2.6523 l 0,69.6805 c 0,1.4693 -1.1829,2.6522 -2.6523,2.6522 l -141.2175,0 c -1.4693,0 -2.6523,-1.1829 -2.6523,-2.6522"
-       style="fill:none;stroke:#000000;stroke-width:0.72335178;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text5849"
-       y="1844.5592"
-       x="1613.7615"
-       style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-       xml:space="preserve"><tspan
-         y="1844.5592"
+         y="1552.2998"
+         id="text5843"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan5845"
+           x="-1908.4298"
+           y="1552.2998">Shashlik Launcher</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.72335178;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 1550.3377,1846.3674 0,-5.9515 c 0,-1.4694 1.183,-2.6523 2.6523,-2.6523 l 141.2175,0 c 1.4694,0 2.6523,1.1829 2.6523,2.6523 l 0,69.6805 c 0,1.4693 -1.1829,2.6522 -2.6523,2.6522 l -141.2175,0 c -1.4693,0 -2.6523,-1.1829 -2.6523,-2.6522"
+         id="path5847"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csssssssc" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
          x="1613.7615"
-         id="tspan5851"
-         sodipodi:role="line">Launch</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-       x="1578.5181"
-       y="1858.2205"
-       id="text5853"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5855"
+         y="1844.5592"
+         id="text5849"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5851"
+           x="1613.7615"
+           y="1844.5592">Launch</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5853"
+         y="1858.2205"
          x="1578.5181"
-         y="1858.2205">Start system server if not running</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text5857"
-       y="1872.2367"
-       x="1582.1118"
-       style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-       xml:space="preserve"><tspan
-         y="1872.2367"
+         style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+         xml:space="preserve"><tspan
+           y="1858.2205"
+           x="1578.5181"
+           id="tspan5855"
+           sodipodi:role="line">Start system server if not running</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
          x="1582.1118"
-         id="tspan5859"
-         sodipodi:role="line">APK?</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-       x="1563.7922"
-       y="1884.4785"
-       id="text5861"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5863"
-         x="1563.7922"
-         y="1884.4785">Unpack and install</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text5865"
-       y="1884.4785"
-       x="1640.8252"
-       style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-       xml:space="preserve"><tspan
+         y="1872.2367"
+         id="text5857"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5859"
+           x="1582.1118"
+           y="1872.2367">APK?</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5861"
          y="1884.4785"
-         x="1640.8252"
-         id="tspan5867"
-         sodipodi:role="line">Launch Dalvik</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-       x="1581.8337"
-       y="1897.4301"
-       id="text5869"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5871"
+         x="1563.7922"
+         style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+         xml:space="preserve"><tspan
+           y="1884.4785"
+           x="1563.7922"
+           id="tspan5863"
+           sodipodi:role="line">Unpack and install</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+         x="1632.9463"
+         y="1884.4785"
+         id="text5865"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5867"
+           x="1632.9463"
+           y="1884.4785">Instantiate Runtime</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5869"
+         y="1897.4301"
          x="1581.8337"
-         y="1897.4301">Run?</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-       x="1651.5342"
-       y="1872.2367"
-       id="text5873"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5875"
+         style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+         xml:space="preserve"><tspan
+           y="1897.4301"
+           x="1581.8337"
+           id="tspan5871"
+           sodipodi:role="line">Run?</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5873"
+         y="1872.2367"
          x="1651.5342"
-         y="1872.2367">Class?</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
-       x="1639.0237"
-       y="1897.2527"
-       id="text5877"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5879"
-         x="1639.0237"
-         y="1897.2527">Request launch</tspan></text>
+         style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+         xml:space="preserve"><tspan
+           y="1872.2367"
+           x="1651.5342"
+           id="tspan5875"
+           sodipodi:role="line">Class?</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5877"
+         y="1897.3527"
+         x="1638.8838"
+         style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+         xml:space="preserve"><tspan
+           y="1897.3527"
+           x="1638.8838"
+           id="tspan5879"
+           sodipodi:role="line">Request launch</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path5881"
+         d="m 1623.6256,1846.1717 0,5.6775"
+         style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6257"
+         d="m 1588.6192,1873.1394 0,5.6775"
+         style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
+         d="m 1588.6192,1886.2685 0,5.6774"
+         id="path6259"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
+         d="m 1659.8002,1873.1394 0,5.6775"
+         id="path6263"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6265"
+         d="m 1659.8002,1886.2685 0,5.6774"
+         style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)" />
+      <path
+         sodipodi:nodetypes="cc"
+         style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
+         d="m 1623.6256,1860.0105 c -7.6608,4.1723 -16.3124,-0.021 -28.5645,6.9193"
+         id="path6267"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6271"
+         d="m 1623.6398,1860.0103 c 7.6608,4.1723 16.3124,-0.021 28.5644,6.9193"
+         style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
+         sodipodi:nodetypes="cc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6273"
+         d="m 1595.9003,1896.0158 c 17.6808,0.033 23.1428,-24.4847 50.848,-24.8206"
+         style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+         x="1641.5487"
+         y="1910.0027"
+         id="text6275"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan6277"
+           x="1641.5487"
+           y="1910.0027">JNI takes over</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
+         d="m 1659.8002,1899.0185 0,5.6774"
+         id="path6279"
+         inkscape:connector-curvature="0" />
+    </g>
+    <image
+       y="1439.2102"
+       x="2134.5854"
+       id="image3218"
+       xlink:href="file:///home/leinir/projects/android-player/shashlik/src/docs/mascot_konqi-dev-qt.png"
+       height="551.70856"
+       width="391.28265" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
-       d="m 1623.6256,1846.1717 0,5.6775"
-       id="path5881"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
-       d="m 1588.6192,1873.1394 0,5.6775"
-       id="path6257"
-       inkscape:connector-curvature="0" />
-    <path
+       sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
-       id="path6259"
-       d="m 1588.6192,1886.2685 0,5.6774"
-       style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)" />
+       id="path3285"
+       d="m -963.3298,-523.38544 c 404.12137,0 633.8056,92.49993 633.8056,478.83559"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)" />
     <path
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
+       d="m -1328.7803,-54.66638 c -231.7164,0 -218.9289,523.19082 -220.2202,765.68975"
+       id="path3287"
        inkscape:connector-curvature="0"
-       id="path6263"
-       d="m 1659.8002,1873.1394 0,5.6775"
-       style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
-       d="m 1659.8002,1886.2685 0,5.6774"
-       id="path6265"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path6267"
-       d="m 1623.6256,1860.0105 c -7.6608,4.1723 -16.3124,-0.021 -28.5645,6.9193"
-       style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
        sodipodi:nodetypes="cc" />
     <path
        sodipodi:nodetypes="cc"
-       style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
-       d="m 1623.6398,1860.0103 c 7.6608,4.1723 16.3124,-0.021 28.5644,6.9193"
-       id="path6271"
-       inkscape:connector-curvature="0" />
-    <path
-       sodipodi:nodetypes="cc"
-       style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
-       d="m 1595.9003,1896.0158 c 17.6808,0.033 23.1428,-24.4847 50.848,-24.8206"
-       id="path6273"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       id="path3289"
+       d="M -8.0693198,370.94241 C -134.73646,370.94241 -175.84446,496.0909 -175.84446,721.9953"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)" />
+    <g
+       id="g4147"
+       transform="translate(2226,504)">
+      <text
+         transform="matrix(0,-1,1,0,0,0)"
+         xml:space="preserve"
+         style="font-size:50.99021912px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Bold"
+         x="-663.44238"
+         y="-1266.5486"
+         id="text3144"
+         sodipodi:linespacing="125%"><tspan
+           id="tspan3148"
+           sodipodi:role="line"
+           x="-663.44238"
+           y="-1266.5486">Android code</tspan></text>
+      <g
+         transform="matrix(1.821079,0,0,1.821079,-492.8858,-384.09865)"
+         id="g3310">
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-387.53928"
+           y="-4.5424757"
+           id="text3009"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3011"
+             x="-387.53928"
+             y="-4.5424757">Bionic</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-387.53928"
+           y="24.240458"
+           id="text3013"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3015"
+             x="-387.53928"
+             y="24.240458">safe-iop</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-387.53928"
+           y="53.023392"
+           id="text3017"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3019"
+             x="-387.53928"
+             y="53.023392">libutils</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-387.53928"
+           y="81.80632"
+           id="text3021"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3023"
+             x="-387.53928"
+             y="81.80632">libcutils</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-387.53928"
+           y="-33.325409"
+           id="text3025"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3027"
+             x="-387.53928"
+             y="-33.325409">Skia</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-387.53928"
+           y="110.58926"
+           id="text3029"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3031"
+             x="-387.53928"
+             y="110.58926">libpixelfinger</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-387.53928"
+           y="139.37219"
+           id="text3033"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3035"
+             x="-387.53928"
+             y="139.37219">libnativehelper</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-387.53928"
+           y="168.15512"
+           id="text3037"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3039"
+             x="-387.53928"
+             y="168.15512">liblog</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-387.53928"
+           y="196.93805"
+           id="text3041"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3043"
+             x="-387.53928"
+             y="196.93805">libjavacore</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-387.53928"
+           y="225.72099"
+           id="text3045"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3047"
+             x="-387.53928"
+             y="225.72099">libdex</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-387.53928"
+           y="254.50392"
+           id="text3049"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3051"
+             x="-387.53928"
+             y="254.50392">libcorkscrew</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-387.53928"
+           y="283.28687"
+           id="text3053"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3055"
+             x="-387.53928"
+             y="283.28687">libbinder</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-387.53928"
+           y="312.06979"
+           id="text3057"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3059"
+             x="-387.53928"
+             y="312.06979">libandroidfw</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3104"
+           y="340.85272"
+           x="-387.53928"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           xml:space="preserve"><tspan
+             y="340.85272"
+             x="-387.53928"
+             id="tspan3106"
+             sodipodi:role="line">libjni</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3156"
+           y="-69.325409"
+           x="-399.17188"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Bold"
+           xml:space="preserve"><tspan
+             y="-69.325409"
+             x="-399.17188"
+             id="tspan3158"
+             sodipodi:role="line">Support Libraries</tspan></text>
+        <path
+           d="m -398,-63.887817 199.5,0 -194.5,2.25 0,403.999997 -5,0 z"
+           id="rect3176"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+      </g>
+      <g
+         transform="matrix(1.821079,0,0,1.821079,-492.8858,-389.56189)"
+         id="g3295">
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-388.59564"
+           y="450.61691"
+           id="text3061"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3063"
+             x="-388.59564"
+             y="450.61691">hprof-conv</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-388.59564"
+           y="478.64664"
+           id="text3069"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3071"
+             x="-388.59564"
+             y="478.64664">dexlist</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-388.59564"
+           y="507.16147"
+           id="text3073"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3075"
+             x="-388.59564"
+             y="507.16147">dexdump</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3112"
+           y="539.67633"
+           x="-388.59564"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           xml:space="preserve"><tspan
+             y="539.67633"
+             x="-388.59564"
+             id="tspan3114"
+             sodipodi:role="line">dmtracedump</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-388.59564"
+           y="569.67633"
+           id="text3116"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3118"
+             x="-388.59564"
+             y="569.67633">gdbjithelper</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3172"
+           y="419.36691"
+           x="-399.09564"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Bold"
+           xml:space="preserve"><tspan
+             y="419.36691"
+             x="-399.09564"
+             id="tspan3174"
+             sodipodi:role="line">Development tools</tspan></text>
+        <path
+           sodipodi:nodetypes="cccccc"
+           inkscape:connector-curvature="0"
+           id="path3179"
+           d="m -397.30635,424.18577 216.25,0 -211.25,2.25 0,149.5 -5,0 z" />
+      </g>
+      <g
+         transform="matrix(1.821079,0,0,1.821079,-518.3809,-280.29714)"
+         id="g3268">
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-23.650188"
+           y="67.712036"
+           id="text3065"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3067"
+             x="-23.650188"
+             y="67.712036">dx</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-23.650188"
+           y="127.25653"
+           id="text3077"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3079"
+             x="-23.650188"
+             y="127.25653">aidl</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3108"
+           y="97.484283"
+           x="-23.650188"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           xml:space="preserve"><tspan
+             y="97.484283"
+             x="-23.650188"
+             id="tspan3110"
+             sodipodi:role="line">dexopt</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3160"
+           y="38.308228"
+           x="-32.367706"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Bold"
+           xml:space="preserve"><tspan
+             y="38.308228"
+             x="-32.367706"
+             id="tspan3162"
+             sodipodi:role="line">Build system tools</tspan></text>
+        <path
+           d="m -30.31793,43.762322 209.17893,0 -204.17893,2.25 0,84.799728 -5,0 z"
+           id="path3181"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+      </g>
+      <g
+         transform="matrix(1.821079,0,0,1.821079,-560.26572,-393.20404)"
+         id="g3279">
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="3.4607239"
+           y="335.58557"
+           id="text3001"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             x="3.4607239"
+             y="335.58557"
+             id="tspan3005">Dalvik</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3152"
+           y="365.85272"
+           x="3.4607239"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           xml:space="preserve"><tspan
+             y="365.85272"
+             x="3.4607239"
+             id="tspan3154"
+             sodipodi:role="line">java frameworks</tspan><tspan
+             y="395.85272"
+             x="3.4607239"
+             sodipodi:role="line"
+             id="tspan3193">- bouncycastle</tspan><tspan
+             y="425.85272"
+             x="3.4607239"
+             sodipodi:role="line"
+             id="tspan3242">- conscrypt</tspan><tspan
+             y="455.85272"
+             x="3.4607239"
+             sodipodi:role="line"
+             id="tspan3244">- core</tspan><tspan
+             y="485.85272"
+             x="3.4607239"
+             sodipodi:role="line"
+             id="tspan3248">- ext</tspan><tspan
+             y="515.85272"
+             x="3.4607239"
+             sodipodi:role="line"
+             id="tspan3195">- framework</tspan><tspan
+             y="545.85272"
+             x="3.4607239"
+             sodipodi:role="line"
+             id="tspan3197">- framework2</tspan><tspan
+             y="575.85272"
+             x="3.4607239"
+             sodipodi:role="line"
+             id="tspan3217">- okhttp</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3168"
+           y="303.58557"
+           x="-4.5392761"
+           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Bold"
+           xml:space="preserve"><tspan
+             id="tspan3170"
+             y="303.58557"
+             x="-4.5392761"
+             sodipodi:role="line">Android Virtual Machine</tspan></text>
+        <path
+           sodipodi:nodetypes="cccccc"
+           inkscape:connector-curvature="0"
+           id="path3183"
+           d="m -5.5691927,310.09894 282.3644827,0 -277.36448265,2.25 0,266.75 -5.00000005,0 z" />
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:5.46323776;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
+         d="m -1278.2816,325.51219 0,-885.00626 c 0,-11.09765 8.9342,-20.03187 20.0319,-20.03187 l 1224.90232,0 c 11.09767,0 20.03187,8.93422 20.03187,20.03187 l 0,1231.32177 c 0,11.0977 -8.9342,20.0318 -20.03187,20.0318 l -1224.90232,0 c -11.0977,0 -20.0319,-8.9341 -20.0319,-20.0318"
+         id="path4122"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csssssssc" />
+      <text
+         xml:space="preserve"
+         style="font-size:72.84316254px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="-1258.6244"
+         y="730.62781"
+         id="text5330"
+         sodipodi:linespacing="125%"><tspan
+           id="tspan5349"
+           sodipodi:role="line"
+           x="-1258.6244"
+           y="730.62781"
+           style="font-size:36.42158127px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans">Android sources fetched separately and built</tspan><tspan
+           id="tspan5841"
+           sodipodi:role="line"
+           x="-1258.6244"
+           y="776.15479"
+           style="font-size:36.42158127px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans">using our CMake build system, allowing for</tspan><tspan
+           id="tspan4117"
+           sodipodi:role="line"
+           x="-1258.6244"
+           y="821.68176"
+           style="font-size:36.42158127px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans">tight control of all used functionality</tspan><tspan
+           id="tspan4119"
+           sodipodi:role="line"
+           x="-1258.6244"
+           y="867.20874"
+           style="font-size:36.42158127px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans">and dependencies</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5708"
+         y="-380.46036"
+         x="-890.17346"
+         style="font-size:42.90728378px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:21.45364189px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+           y="-380.46036"
+           x="-890.17346"
+           sodipodi:role="line"
+           id="tspan5716">We only build explicitly required</tspan><tspan
+           id="tspan5727"
+           style="font-size:21.45364189px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+           y="-353.64331"
+           x="-890.17346"
+           sodipodi:role="line">bits, which a standard libc does</tspan><tspan
+           id="tspan5729"
+           style="font-size:21.45364189px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+           y="-326.82626"
+           x="-890.17346"
+           sodipodi:role="line">not supply (e.g. strlcat, strlcpy)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:44.16739273px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="-703.26752"
+         y="-516.37427"
+         id="text5731"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="-703.26752"
+           y="-516.37427"
+           style="font-size:22.08369637px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+           id="tspan5737">Only the explicitly required parts</tspan><tspan
+           id="tspan5744"
+           sodipodi:role="line"
+           x="-703.26752"
+           y="-488.76965"
+           style="font-size:22.08369637px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans">are built, from the android specific</tspan><tspan
+           id="tspan5746"
+           sodipodi:role="line"
+           x="-703.26752"
+           y="-461.16504"
+           style="font-size:22.08369637px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Open Sans;-inkscape-font-specification:Open Sans">branch in the android external repository</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5795"
+         y="-93.891937"
+         x="-739.94995"
+         style="font-size:19.79757118px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+         xml:space="preserve"><tspan
+           style="font-size:19.79757118px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+           y="-93.891937"
+           x="-739.94995"
+           sodipodi:role="line"
+           id="tspan5797">Modified to be</tspan><tspan
+           style="font-size:19.79757118px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+           y="-69.144974"
+           x="-739.94995"
+           sodipodi:role="line"
+           id="tspan5799">possible to build without</tspan><tspan
+           style="font-size:19.79757118px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+           y="-44.39801"
+           x="-739.94995"
+           sodipodi:role="line"
+           id="tspan5801">a full Android system</tspan><tspan
+           id="tspan5803"
+           style="font-size:19.79757118px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Open Sans;-inkscape-font-specification:Open Sans"
+           y="-19.651045"
+           x="-739.94995"
+           sodipodi:role="line">underneath.</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.84294474;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
+         d="M -691.96933,-5.7496398 C -680.3767,100.1918 -659.69068,133.30424 -582.68232,192.24091"
+         id="path3291"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3293"
+         d="M -745.20329,-5.7496398 C -786.84462,70.20084 -907.86589,111.56079 -995.80787,118.01327"
+         style="fill:none;stroke:#000000;stroke-width:1.84294474;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.84294474;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
+         d="M -797.68748,-5.7496398 C -821.33423,22.96507 -860.63012,45.58067 -937.32549,67.77841"
+         id="path3295"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3297"
+         d="m -862.91783,-73.97908 c -71.63229,-1.27626 -133.4214,-16.14937 -212.36607,-17.19463"
+         style="fill:none;stroke:#000000;stroke-width:1.84294474;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.84294474;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
+         d="m -753.45081,-121.21485 c -31.89426,-78.503 -202.40062,-125.61639 -281.34529,-126.66165"
+         id="path3299"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.84294474;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
+         d="m -906.39183,-362.39176 c -71.63229,-1.27626 -81.46468,-42.65788 -160.40937,-43.70314"
+         id="path3301"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3303"
+         d="m -718.71152,-495.46452 c -172.10203,1.72284 -176.06908,36.08022 -389.97308,39.5336"
+         style="fill:none;stroke:#000000;stroke-width:1.84294474;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:200.54255676px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+       x="1393.8625"
+       y="1932.2609"
+       id="text4095"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4097"
+         x="1393.8625"
+         y="1932.2609">Shashlik</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:55.52766037px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+       x="1864.2979"
+       y="1758.2988"
+       id="text4091"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4093"
+         x="1864.2979"
+         y="1758.2988">anatomy of</tspan></text>
     <text
        sodipodi:linespacing="125%"
-       id="text6275"
-       y="1910.0027"
-       x="1641.6487"
-       style="font-size:5.78681421px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+       id="text4103"
+       y="1695.0132"
+       x="2080.1182"
+       style="font-size:55.52766037px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
        xml:space="preserve"><tspan
-         y="1910.0027"
-         x="1641.6487"
-         id="tspan6277"
-         sodipodi:role="line">JNI takes over</tspan></text>
+         y="1695.0132"
+         x="2080.1182"
+         id="tspan4105"
+         sodipodi:role="line">the</tspan></text>
+    <g
+       id="g3346"
+       transform="matrix(0.74759854,0,0,0.74759854,316.24369,449.29915)">
+      <g
+         transform="translate(135.7645,43.84062)"
+         id="g4276">
+        <text
+           xml:space="preserve"
+           style="font-size:47.7623024px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Bold"
+           x="-1878.4716"
+           y="-1532.4774"
+           id="text5843-3"
+           sodipodi:linespacing="125%"
+           transform="matrix(0,-1,1,0,0,0)"><tspan
+             sodipodi:role="line"
+             id="tspan5845-7"
+             x="-1878.4716"
+             y="-1532.4774">Java Native Interface</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:5.11738968;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1"
+           d="m -1546.3585,1379.1824 0,-42.1042 c 0,-10.3953 8.3692,-18.7638 18.7639,-18.7638 l 999.05053,0 c 10.3953,0 18.7638,8.3685 18.7638,18.7638 l 0,553.1837 c 0,10.3947 -8.3685,18.7631 -18.7638,18.7631 l -999.05053,0 c -10.3947,0 -18.7639,-8.3684 -18.7639,-18.7631"
+           id="path5847-3"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="csssssssc" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text6275-1"
+           y="1405.1698"
+           x="-1479.9982"
+           style="font-size:40.93911743px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           xml:space="preserve"><tspan
+             y="1405.1698"
+             x="-1479.9982"
+             id="tspan6277-4"
+             sodipodi:role="line">Initialise JNI environment</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40.93911743px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-1394.4982"
+           y="1525.0448"
+           id="text3218"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3220"
+             x="-1394.4982"
+             y="1525.0448">Start Virtual Machine</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3222"
+           y="1644.9198"
+           x="-1308.9982"
+           style="font-size:40.93911743px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           xml:space="preserve"><tspan
+             y="1644.9198"
+             x="-1308.9982"
+             id="tspan3224"
+             sodipodi:role="line">Load system frameworks</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:23.2517395px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-1029.29"
+           y="1665.7316"
+           id="text3226"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3228"
+             x="-1029.29"
+             y="1665.7316">(≅ &quot;boot android&quot;)</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text3230"
+           y="1764.7948"
+           x="-1223.4982"
+           style="font-size:40.93911743px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           xml:space="preserve"><tspan
+             y="1764.7948"
+             x="-1223.4982"
+             id="tspan3232"
+             sodipodi:role="line">Locate main function in passed class</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:40.93911743px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Open Sans;-inkscape-font-specification:Open Sans Semi-Light"
+           x="-1137.9982"
+           y="1884.6698"
+           id="text3234"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3236"
+             x="-1137.9982"
+             y="1884.6698">Run the main function</tspan></text>
+      </g>
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3248"
+         d="m -1359.339,1448.5587 347.345,485.911"
+         style="fill:none;stroke:#000000;stroke-width:1.53036284px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)" />
+    </g>
     <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)"
+       d="m -655.14844,1222.2906 c 47.47118,0 92.82182,13.4256 92.82182,239.33"
+       id="path3365"
        inkscape:connector-curvature="0"
-       id="path6279"
-       d="m 1659.8002,1899.0185 0,5.6774"
-       style="fill:none;stroke:#000000;stroke-width:0.25090832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow2Lend)" />
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
