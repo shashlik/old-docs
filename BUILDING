@@ -136,6 +136,14 @@ depend on changes made to the library.
     +//     #error "Skia gpu currently assumes little endian"
 
 
+7. openssl
+
+openssl is the premiere secure socket layer library used by free software projects,
+and android has made certain modifications to it which makes it difficult to simply
+use the one provided by most linux distributions. So, we use theit modified version.
+
+  git clone https://android.googlesource.com/platform/external/openssl
+  git checkout android-4.4.4_r2.0.1
 
 Building the Sources
 ====================
@@ -212,10 +220,11 @@ should be on the correct branch already.
 
 * frameworks-base             branch kitkat-release
 * frameworks-native           branch kitkat-release
-* safe-iop:           tag http://safe-iop.googlecode.com/svn/tags/r0.3.1
+* safe-iop:                   tag http://safe-iop.googlecode.com/svn/tags/r0.3.1
 * libnativehelper:            branch kitkat-release
 * bionic:                     tag android-4.4.4_r2.0.1
 * skia:                       tag android-4.4.4_r2.0.1
+* openssl:                    tag android-4.4.4_r2.0.1
 
 As you can see above, the repo shashlik itself is the one where we try to put
 all of our changes so that should be on master branch unless you are working
