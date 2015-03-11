@@ -145,6 +145,20 @@ use the one provided by most linux distributions. So, we use theit modified vers
   git clone https://android.googlesource.com/platform/external/openssl
   git checkout android-4.4.4_r2.0.1
 
+8. ext libraries
+
+A set of java libraries used by android and packed together into one jar.
+
+  git clone https://android.googlesource.com/platform/external/nist-sip
+  git clone https://android.googlesource.com/platform/external/apache-http
+  git clone https://android.googlesource.com/platform/external/tagsoup
+  git clone https://android.googlesource.com/platform/external/libphonenumber
+  git clone https://android.googlesource.com/platform/external/okhttp
+  git clone https://android.googlesource.com/platform/external/bouncycastle
+
+for all of the above:
+  git checkout android-4.4.4_r2.0.1
+
 Building the Sources
 ====================
 
