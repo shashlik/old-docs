@@ -34,16 +34,16 @@ at this level (see below under Building the sources).
 Then proceed to download the git and svn repositories as follows.  
 
 
-1. The 5 repositories from the Shashlik project on github.
+1. The 6 repositories from the Shashlik project on github.
 
-Shashlik has 4 repos from the Google Android sources copied into Github. These
-4 repos are Dalvik, Android Core, Android Libcore and Frameworks Native. The
-changes in these repositories will be kept as small as possible so that it will
+Shashlik has 5 repos from the Google Android sources copied into Github. These
+5 repos are Dalvik, Android Core, Android Libcore, Frameworks Native and Frameworks Base.
+The changes in these repositories will be kept as small as possible so that it will
 be easier to upgrade to a later version later. The main code written for Shashlik
-is created in the 5th repository of the project named (surprise!) shaslik.
+is created in the 6th repository of the project named (surprise!) shaslik.
 
 The main page of the project is https://github.com/shashlik. Here you will
-find links to all 5 repositories. Since the shashlik repos are private you
+find links to all 6 repositories. Since the shashlik repos are private you
 will need to give your username and password to clone them.
 
   git clone https://github.com/shashlik/shashlik.git
@@ -51,6 +51,7 @@ will need to give your username and password to clone them.
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-core.git
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-libcore.git
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-frameworks-native.git
+  git clone --branch shashlik-kitkat https://github.com/shashlik/android-frameworks-base.git
 
 
 2. Other Android repositories
@@ -59,7 +60,6 @@ Shashlik is also using some other Android repositories but without changing
 anything in them.  You need to check these out too. Since we want a stable
 point to work from, we use the kitkat-release branch.
 
-  git clone --branch kitkat-release https://android.googlesource.com/platform/frameworks/base  frameworks-base
   git clone --branch kitkat-release https://android.googlesource.com/platform/frameworks/native frameworks-native
 
 
@@ -163,12 +163,29 @@ for all of the above:
 
   git clone https://android.googlesource.com/platform/frameworks/opt/telephony
   git clone https://android.googlesource.com/platform/frameworks/opt/net/voip
-  git clone https://android.googlesource.com/platform/hardware/libhardware
   git clone https://android.googlesource.com/platform/hardware/liblzf
   git clone https://android.googlesource.com/platform/external/protobuf
   git clone https://android.googlesource.com/platform/external/sqlite
   git checkout android-4.4.4_r2.0.1
 
+  We also require the Android 5.1 version of libhardware
+  git clone https://android.googlesource.com/platform/hardware/libhardware
+  git checkout android-5.1.0_r1
+
+  The following libraries are not currently used, but will be required once RenderScript
+  support is functional.
+  git clone https://android.googlesource.com/platform/frameworks/compile/libbcc
+  git clone https://android.googlesource.com/platform/frameworks/rs
+  git checkout android-4.4.4_r2.0.1
+
+10. Intel libraries
+  These are not, in fact, required as it is now. They are used for building the
+  intel hwcomposer module, and this is currently non-functional. Hopefully we will
+  never actually need it. No need to check these out. They are left here to remind
+  the author where they are, should we need them in the future.
+
+  git clone https://android.googlesource.com/platform/hardware/intel/img/hwcomposer intel-hwcomposer
+  git clone https://android.googlesource.com/platform/hardware/intel/common/libwsbm intel-libwsbm
 
 Building the Sources
 ====================
@@ -198,7 +215,7 @@ Prerequisites
 
 Aside from using a normal Linux development system (make, gcc, etc) you need
 a variety of components that might not be on everybodys computers:
- - CMake, version 2.8 minimum
+ - CMake, version 2.8.8 minimum
  - Qt 5.3
  - KDE Frameworks 5 (KF5)
  - Java SDK version 6
@@ -242,8 +259,8 @@ should be on the correct branch already.
 * android-core:               branch shashlik-kitkat
 * android-libcore:            branch shashlik-kitkat
 * android-frameworks-native:  branch shashlik-kitkat
+* android-frameworks-base:    branch shashlik-kitkat
 
-* frameworks-base             branch kitkat-release
 * frameworks-native           branch kitkat-release
 * safe-iop:                   tag http://safe-iop.googlecode.com/svn/tags/r0.3.1
 * libnativehelper:            branch kitkat-release
@@ -283,12 +300,13 @@ be creating, all the others are git clones (and that one svn checkout):
   + src *
     + android-core
     + android-frameworks-native
+    + android-frameworks-base
     + android-libcore
     + bionic
     + dalvik
-    + frameworks-base
     + libnativehelper
     + safe-iop
+    + (etc, other checkouts)
     + shashlik
       + build *
 
@@ -301,7 +319,8 @@ in the $SHASHLIK/src/shashlik/build/ directory and it is really easy:
   cmake .. -DCMAKE_INSTALL_PREFIX=$SHASHLIK/install
   make install
 
-You can now run all the shashlik binaries by adding the install path to your
-PATH environment variable:
 
-  export PATH=$SHASHLIK/install/bin:$PATH
+The main control for the shashlik android runtime is shashlik-controller, the
+only binary installed outside of the android root. Run this command with --help
+to see what options you've got. This binary currently makes assumptions regarding
+the setup of your system. These assumptions will be removed at a later date.
