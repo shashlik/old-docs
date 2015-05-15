@@ -34,16 +34,17 @@ at this level (see below under Building the sources).
 Then proceed to download the git and svn repositories as follows.  
 
 
-1. The 6 repositories from the Shashlik project on github.
+1. The 7 repositories from the Shashlik project on github.
 
-Shashlik has 5 repos from the Google Android sources copied into Github. These
-5 repos are Dalvik, Android Core, Android Libcore, Frameworks Native and Frameworks Base.
+Shashlik has 6 repos from the Google Android sources copied into Github. These
+6 repos are Dalvik, Android Core, Android Libcore, Frameworks Native, Frameworks Base
+and libnativehelper.
 The changes in these repositories will be kept as small as possible so that it will
 be easier to upgrade to a later version later. The main code written for Shashlik
-is created in the 6th repository of the project named (surprise!) shaslik.
+is created in the 7th repository of the project named (surprise!) shaslik.
 
 The main page of the project is https://github.com/shashlik. Here you will
-find links to all 6 repositories. Since the shashlik repos are private you
+find links to all 7 repositories. Since the shashlik repos are private you
 will need to give your username and password to clone them.
 
   git clone https://github.com/shashlik/shashlik.git
@@ -52,18 +53,9 @@ will need to give your username and password to clone them.
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-libcore.git
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-frameworks-native.git
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-frameworks-base.git
+  git clone --branch shashlik-kitkat https://github.com/shashlik/android-libnativehelper.git
 
-
-2. Other Android repositories
-
-Shashlik is also using some other Android repositories but without changing
-anything in them.  You need to check these out too. Since we want a stable
-point to work from, we use the kitkat-release branch.
-
-  git clone --branch kitkat-release https://android.googlesource.com/platform/frameworks/native frameworks-native
-
-
-3. safe-iop
+2. safe-iop
 
 Safe IOP is also a Google library which is described like this on the project
 home page at https://code.google.com/p/safe-iop/:
@@ -82,18 +74,7 @@ We will use a specific release, in this case 0.3.1, to get a stable platform.
 This is the reason for the svn switch.
 
 
-4. libnativehelper
-
-Libnativehelper is another library from Google which is necessary to build
-Dalvik. It contains support functions for Android's class libraries. This one
-is kept in git.
-
-  git clone --branch kitkat-release https://android.googlesource.com/platform/libnativehelper
-
-This repository is used without modification, and the master branch is tracked.
-
-
-5. bionic
+3. bionic
 
 Bionic is a derivation of the BSD's standard C library code that was
 originally developed by Google for their Android[2] operating system
@@ -114,7 +95,7 @@ We use the kitkat tag for this one, meaning you need to run:
 which will leave you with a detached head
 
 
-6. skia
+4. skia
 
 Skia is a graphics library used extensively throughout android (and chrome/chromium),
 and we specifically need the kitkat tag of it (as above), as the android libraries
@@ -136,7 +117,7 @@ depend on changes made to the library.
     +//     #error "Skia gpu currently assumes little endian"
 
 
-7. openssl
+5. openssl
 
 openssl is the premiere secure socket layer library used by free software projects,
 and android has made certain modifications to it which makes it difficult to simply
@@ -145,7 +126,7 @@ use the one provided by most linux distributions. So, we use theit modified vers
   git clone https://android.googlesource.com/platform/external/openssl
   git checkout android-4.4.4_r2.0.1
 
-8. ext libraries
+6. ext libraries
 
 A set of java libraries used by android and packed together into one jar.
 
@@ -159,7 +140,7 @@ A set of java libraries used by android and packed together into one jar.
 for all of the above:
   git checkout android-4.4.4_r2.0.1
 
-9. jni requirements
+7. jni requirements
 
   git clone https://android.googlesource.com/platform/frameworks/opt/telephony
   git clone https://android.googlesource.com/platform/frameworks/opt/net/voip
@@ -178,7 +159,7 @@ for all of the above:
   git clone https://android.googlesource.com/platform/frameworks/rs
   git checkout android-4.4.4_r2.0.1
 
-10. Intel libraries
+8. Intel libraries - not currently in use
   These are not, in fact, required as it is now. They are used for building the
   intel hwcomposer module, and this is currently non-functional. Hopefully we will
   never actually need it. No need to check these out. They are left here to remind
@@ -324,3 +305,7 @@ The main control for the shashlik android runtime is shashlik-controller, the
 only binary installed outside of the android root. Run this command with --help
 to see what options you've got. This binary currently makes assumptions regarding
 the setup of your system. These assumptions will be removed at a later date.
+
+To run an application, run as follows:
+shashlik-controller --start
+shashlik-controller --launchapk=/path/to/apk-file.apk
