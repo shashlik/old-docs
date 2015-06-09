@@ -69,6 +69,7 @@ This library is kept in subversion. To check it out, do the following:
   svn checkout http://safe-iop.googlecode.com/svn/trunk/ safe-iop
   cd safe-iop
   svn switch http://safe-iop.googlecode.com/svn/tags/r0.3.1
+  cd ..
 
 We will use a specific release, in this case 0.3.1, to get a stable platform.
 This is the reason for the svn switch.
@@ -90,7 +91,9 @@ have not gone down that route.
 
 We use the kitkat tag for this one, meaning you need to run:
 
+  cd bionic
   git checkout android-4.4.4_r2.0.1
+  cd ..
 
 which will leave you with a detached head
 
@@ -102,7 +105,9 @@ and we specifically need the kitkat tag of it (as above), as the android librari
 depend on changes made to the library.
 
   git clone https://android.googlesource.com/platform/external/skia
+  cd skia
   git checkout android-4.4.4_r2.0.1
+  cd ..
 
   -- NOTE: We will need a custom copy of this, as we need the following changes:
     Granted that these are include files, perhaps we can simply store these two locally
@@ -124,7 +129,9 @@ and android has made certain modifications to it which makes it difficult to sim
 use the one provided by most linux distributions. So, we use theit modified version.
 
   git clone https://android.googlesource.com/platform/external/openssl
+  cd openssl
   git checkout android-4.4.4_r2.0.1
+  cd ..
 
 6. ext libraries
 
@@ -138,7 +145,24 @@ A set of java libraries used by android and packed together into one jar.
   git clone https://android.googlesource.com/platform/external/bouncycastle
 
 for all of the above:
+  cd nist-sip
   git checkout android-4.4.4_r2.0.1
+  cd ..
+  cd apache-http
+  git checkout android-4.4.4_r2.0.1
+  cd ..
+  cd tagsoup
+  git checkout android-4.4.4_r2.0.1
+  cd ..
+  cd libphonenumber
+  git checkout android-4.4.4_r2.0.1
+  cd ..
+  cd okhttp
+  git checkout android-4.4.4_r2.0.1
+  cd ..
+  cd bouncycastle
+  git checkout android-4.4.4_r2.0.1
+  cd ..
 
 7. jni requirements
 
@@ -147,26 +171,38 @@ for all of the above:
   git clone https://android.googlesource.com/platform/hardware/liblzf
   git clone https://android.googlesource.com/platform/external/protobuf
   git clone https://android.googlesource.com/platform/external/sqlite
+  cd telephony
   git checkout android-4.4.4_r2.0.1
+  cd ..
+  cd voip
+  git checkout android-4.4.4_r2.0.1
+  cd ..
+  cd liblzf
+  git checkout android-4.4.4_r2.0.1
+  cd ..
+  cd protobuf
+  git checkout android-4.4.4_r2.0.1
+  cd ..
+  cd sqlite
+  git checkout android-4.4.4_r2.0.1
+  cd ..
 
   We also require the Android 5.1 version of libhardware
   git clone https://android.googlesource.com/platform/hardware/libhardware
+  cd libhardware
   git checkout android-5.1.0_r1
+  cd ..
 
   The following libraries are not currently used, but will be required once RenderScript
   support is functional.
   git clone https://android.googlesource.com/platform/frameworks/compile/libbcc
   git clone https://android.googlesource.com/platform/frameworks/rs
+  cd libbcc
   git checkout android-4.4.4_r2.0.1
-
-8. Intel libraries - not currently in use
-  These are not, in fact, required as it is now. They are used for building the
-  intel hwcomposer module, and this is currently non-functional. Hopefully we will
-  never actually need it. No need to check these out. They are left here to remind
-  the author where they are, should we need them in the future.
-
-  git clone https://android.googlesource.com/platform/hardware/intel/img/hwcomposer intel-hwcomposer
-  git clone https://android.googlesource.com/platform/hardware/intel/common/libwsbm intel-libwsbm
+  cd ..
+  cd rs
+  git checkout android-4.4.4_r2.0.1
+  cd ..
 
 Building the Sources
 ====================
@@ -223,6 +259,7 @@ a variety of components that might not be on everybodys computers:
    GLESv2
    GLESv1_CM
    selinux
+   Qt 5.3 modules: Core, Gui, Widgets, X11Extras
    Note! All the libraries above must be 32bit versions, as they are used by the
    (always) 32 bit android runtime
 
