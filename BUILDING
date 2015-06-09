@@ -34,17 +34,17 @@ at this level (see below under Building the sources).
 Then proceed to download the git and svn repositories as follows.  
 
 
-1. The 7 repositories from the Shashlik project on github.
+1. The 9 repositories from the Shashlik project on github.
 
-Shashlik has 6 repos from the Google Android sources copied into Github. These
-6 repos are Dalvik, Android Core, Android Libcore, Frameworks Native, Frameworks Base
-and libnativehelper.
+Shashlik has 8 repos from the Google Android sources copied into Github. These
+8 repos are Dalvik, Android Core, Android Libcore, Frameworks Native, Frameworks Base,
+libnativehelper, telephony and skia.
 The changes in these repositories will be kept as small as possible so that it will
 be easier to upgrade to a later version later. The main code written for Shashlik
-is created in the 7th repository of the project named (surprise!) shaslik.
+is created in the 9th repository of the project named (surprise!) shaslik.
 
 The main page of the project is https://github.com/shashlik. Here you will
-find links to all 7 repositories. Since the shashlik repos are private you
+find links to all 9 repositories. Since the shashlik repos are private you
 will need to give your username and password to clone them.
 
   git clone https://github.com/shashlik/shashlik.git
@@ -55,6 +55,7 @@ will need to give your username and password to clone them.
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-frameworks-base.git
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-libnativehelper.git
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-telephony.git
+  git clone --branch shashlik-kitkat https://github.com/shashlik/android-skia.git
 
 2. safe-iop
 
@@ -99,31 +100,7 @@ We use the kitkat tag for this one, meaning you need to run:
 which will leave you with a detached head
 
 
-4. skia
-
-Skia is a graphics library used extensively throughout android (and chrome/chromium),
-and we specifically need the kitkat tag of it (as above), as the android libraries
-depend on changes made to the library.
-
-  git clone https://android.googlesource.com/platform/external/skia
-  cd skia
-  git checkout android-4.4.4_r2.0.1
-  cd ..
-
-  -- NOTE: We will need a custom copy of this, as we need the following changes:
-    Granted that these are include files, perhaps we can simply store these two locally
-  include/core/SkUserConfig.h:46
-    -#define SK_BUILD_FOR_ANDROID_FRAMEWORK
-    +// #define SK_BUILD_FOR_ANDROID_FRAMEWORK
-  include/core/SkUserConfig.h:190
-    -#define SK_SFNTLY_SUBSETTER "sample/chromium/font_subsetter.h"
-    +// #define SK_SFNTLY_SUBSETTER "sample/chromium/font_subsetter.h"
-  include/gpu/GrTypes.h289
-    -    #error "Skia gpu currently assumes little endian"
-    +//     #error "Skia gpu currently assumes little endian"
-
-
-5. openssl
+4. openssl
 
 openssl is the premiere secure socket layer library used by free software projects,
 and android has made certain modifications to it which makes it difficult to simply
@@ -134,7 +111,7 @@ use the one provided by most linux distributions. So, we use theit modified vers
   git checkout android-4.4.4_r2.0.1
   cd ..
 
-6. ext libraries
+5. ext libraries
 
 A set of java libraries used by android and packed together into one jar.
 
@@ -165,7 +142,7 @@ for all of the above:
   git checkout android-4.4.4_r2.0.1
   cd ..
 
-7. jni requirements
+6. jni requirements
 
   git clone https://android.googlesource.com/platform/frameworks/opt/net/voip
   git clone https://android.googlesource.com/platform/hardware/liblzf
