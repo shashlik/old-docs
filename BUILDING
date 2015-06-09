@@ -145,7 +145,7 @@ for all of the above:
 6. jni requirements
 
   git clone https://android.googlesource.com/platform/frameworks/opt/net/voip
-  git clone https://android.googlesource.com/platform/hardware/liblzf
+  git clone https://android.googlesource.com/platform/external/liblzf
   git clone https://android.googlesource.com/platform/external/protobuf
   git clone https://android.googlesource.com/platform/external/sqlite
   cd voip
