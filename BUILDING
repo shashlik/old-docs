@@ -54,6 +54,7 @@ will need to give your username and password to clone them.
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-frameworks-native.git
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-frameworks-base.git
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-libnativehelper.git
+  git clone --branch shashlik-kitkat https://github.com/shashlik/android-telephony.git
 
 2. safe-iop
 
@@ -166,14 +167,10 @@ for all of the above:
 
 7. jni requirements
 
-  git clone https://android.googlesource.com/platform/frameworks/opt/telephony
   git clone https://android.googlesource.com/platform/frameworks/opt/net/voip
   git clone https://android.googlesource.com/platform/hardware/liblzf
   git clone https://android.googlesource.com/platform/external/protobuf
   git clone https://android.googlesource.com/platform/external/sqlite
-  cd telephony
-  git checkout android-4.4.4_r2.0.1
-  cd ..
   cd voip
   git checkout android-4.4.4_r2.0.1
   cd ..
