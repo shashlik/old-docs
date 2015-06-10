@@ -161,9 +161,13 @@ for all of the above:
   git checkout android-4.4.4_r2.0.1
   cd ..
 
-  We also require the Android 5.1 version of libhardware
+  We also require the Android 5.1 version of libhardware and android core (for libbase)
   git clone https://android.googlesource.com/platform/hardware/libhardware
+  git clone https://android.googlesource.com/platform/system/core core-head
   cd libhardware
+  git checkout android-5.1.0_r1
+  cd ..
+  cd core-head
   git checkout android-5.1.0_r1
   cd ..
 
@@ -223,6 +227,7 @@ a variety of components that might not be on everybodys computers:
    harfbuzz
    glu-devel
    libcap
+   zlib-devel
    ffi
    icuuc
    icui18n
