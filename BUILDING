@@ -161,7 +161,8 @@ for all of the above:
   git checkout android-4.4.4_r2.0.1
   cd ..
 
-  We also require the Android 5.1 version of libhardware and android core (for libbase)
+  We also require the Android 5.1 version of libhardware and master head of android
+  core (for libbase)
   git clone https://android.googlesource.com/platform/hardware/libhardware
   git clone https://android.googlesource.com/platform/system/core core-head
   cd libhardware
