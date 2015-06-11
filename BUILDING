@@ -167,9 +167,6 @@ for all of the above:
   cd libhardware
   git checkout android-5.1.0_r1
   cd ..
-  cd core-head
-  git checkout android-5.1.0_r1
-  cd ..
 
   The following libraries are not currently used, but will be required once RenderScript
   support is functional.
