@@ -186,6 +186,7 @@ These libraries are an attempt to get SurfaceFlinger to work on normal Linux, an
 we piggyback on that work. Minor changes have been made to the drm_gralloc module, and
 until those are upstreamed or otherwise fixed, we keep a local clone of it.
 
+  git clone https://android.googlesource.com/platform/hardware/libhardware_legacy
   git glone git://anongit.freedesktop.org/mesa/mesa
   git clone https://github.com/shashlik/drm_gralloc.git
   cd drm_gralloc
