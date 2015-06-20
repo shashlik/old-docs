@@ -180,6 +180,18 @@ for all of the above:
   git checkout android-4.4.4_r2.0.1
   cd ..
 
+7. Graphics assistance libraries
+
+These libraries are an attempt to get SurfaceFlinger to work on normal Linux, and so
+we piggyback on that work. Minor changes have been made to the drm_gralloc module, and
+until those are upstreamed or otherwise fixed, we keep a local clone of it.
+
+  git glone git://anongit.freedesktop.org/mesa/mesa
+  git clone https://github.com/shashlik/drm_gralloc.git
+  cd drm_gralloc
+  git checkout lollipop-x86
+  cd ..
+
 Building the Sources
 ====================
 
