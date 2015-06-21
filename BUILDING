@@ -193,6 +193,14 @@ until those are upstreamed or otherwise fixed, we keep a local clone of it.
   git checkout lollipop-x86
   cd ..
 
+The following are from https://wiki.linaro.org/BenjaminGaignard/HWComposer_DRM and
+they are a part of an attempt to get things running on a full blood linux as well
+which of course aligns very well with our efforts.
+
+  git clone git://git.linaro.org/people/benjamin.gaignard/gralloc.git
+  git clone git://git.linaro.org/people/benjamin.gaignard/hwcomposer.git
+
+
 Building the Sources
 ====================
 
