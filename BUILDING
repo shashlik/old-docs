@@ -261,6 +261,18 @@ a variety of components that might not be on everybodys computers:
    Note! All the libraries above must be 32bit versions, as they are used by the
    (always) 32 bit android runtime
 
+   for openSuse, you can run the following commands to get what you need:
+   sudo zypper install -t pattern devel_c_cpp devel_java devel_qt5 devel_kde_frameworks
+   sudo zypper install libharfbuzz0-32bit libharfbuzz-icu0-32bit glibc-devel-32bit \
+        libstdc++-devel-32bit gcc-32bit gcc-c++-32bit libwebp-devel libwebpdecoder1-32bit \
+        libwebpdemux1-32bit libwebpmux1-32bit fontconfig-devel-32bit zlib-devel-32bit \
+        freetype2-devel-32bit glu-devel-32bit giflib-devel-32bit libpng12-devel-32bit \
+        libpng12-compat-devel-32bit Mesa-libGL-devel-32bit libjpeg62-32bit libjpeg62-devel-32bit \
+        libicu-devel-32bit libdrm-devel-32bit Mesa-libglapi-devel-32bit libcap-devel \
+        libQt5Core-devel-32bit libffi48-devel-32bit libexpat-devel-32bit libopenssl-devel-32bit \
+        java-1_7_0-openjdk-devel jarjar Mesa-libGLESv2-devel-32bit libselinux-devel \
+        libQt5Widgets-devel-32bit  libqt5-qtx11extras-devel-32bit
+
 This instruction will from here on assume that you have these installed
 correctly.  If not, you will have to install them (probably build yourself)
 using their respective installation instructions.
