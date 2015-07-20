@@ -8,7 +8,7 @@ Components
  + Zygote / Launcher
     - Preload Java classes
  + Installer?
- + 
+ + ...?
 
 System Services
  + Settings
@@ -46,7 +46,7 @@ Launcher
  
 Surface Flinger
  + Create a window with an OpenGL canvas/context
- + 
+ + ...?
 
 ----------------------------------------------------------------
 
@@ -67,5 +67,5 @@ Development Activities
 
 
 ================================================================
-Goal: Flappy bird runs!!                                6 weeks (0.8 due August, 28th)
+Goal: Flappy bird flies                                          6 weeks (0.8 due August, 28th)
 ================================================================
