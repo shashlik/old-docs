@@ -198,8 +198,14 @@ they are a part of an attempt to get things running on a full blood linux as wel
 which of course aligns very well with our efforts.
 
   git clone git://git.linaro.org/people/benjamin.gaignard/gralloc.git
-  git clone git://git.linaro.org/people/benjamin.gaignard/hwcomposer.git
+  git clone https://github.com/shashlik/hwcomposer-linaro.git hwcomposer
 
+8. Gentroid
+
+This code is a clone and modification of the gentroid code, used in the leinir2 branch
+to build jni
+
+  git clone https://github.com/shashlik/gentroid-frameworks-base.git
 
 Building the Sources
 ====================
@@ -267,10 +273,10 @@ a variety of components that might not be on everybodys computers:
         libstdc++-devel-32bit gcc-32bit gcc-c++-32bit libwebp-devel libwebpdecoder1-32bit \
         libwebpdemux1-32bit libwebpmux1-32bit fontconfig-devel-32bit zlib-devel-32bit \
         freetype2-devel-32bit glu-devel-32bit giflib-devel-32bit libpng12-devel-32bit \
-        libpng12-compat-devel-32bit Mesa-libGL-devel-32bit libjpeg62-32bit libjpeg62-devel-32bit \
-        libicu-devel-32bit libdrm-devel-32bit Mesa-libglapi-devel-32bit libcap-devel \
+        libpng12-compat-devel-32bit  libjpeg62-32bit libjpeg62-devel-32bit \
+        libicu-devel-32bit libdrm-devel-32bit libcap-devel \
         libQt5Core-devel-32bit libffi48-devel-32bit libexpat-devel-32bit libopenssl-devel-32bit \
-        java-1_7_0-openjdk-devel jarjar Mesa-libGLESv2-devel-32bit libselinux-devel \
+        java-1_7_0-openjdk-devel jarjar libselinux-devel \
         libQt5Widgets-devel-32bit  libqt5-qtx11extras-devel-32bit
 
 This instruction will from here on assume that you have these installed
