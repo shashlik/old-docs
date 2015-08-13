@@ -207,6 +207,17 @@ to build jni
 
   git clone https://github.com/shashlik/gentroid-frameworks-base.git
 
+9. JarJar
+
+This is a tool used for doing modifications to jar files, such as relocating packages
+to other sub-domains (for example, org.conscrypt.* becomes com.android.conscrypt...).
+
+Leave this file in the base source directory so the build system can find it. As google
+code is shutting down, this may need to relocate at some point (other mirrors exist,
+but this is the canonical release address for the file)
+
+wget https://jarjar.googlecode.com/files/jarjar-1.4.jar
+
 Building the Sources
 ====================
 
@@ -242,7 +253,6 @@ a variety of components that might not be on everybodys computers:
  - Kernel headers
  - Java SDK version 6 (or newer, we're just forcing target/source)
  - flex and bison
- - jarjar (java application)
 
  - 32 bit development headers for all the following libraries, used by the android VM
    Fontconfig
