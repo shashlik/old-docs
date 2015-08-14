@@ -148,6 +148,7 @@ for all of the above:
   git clone https://android.googlesource.com/platform/external/liblzf
   git clone https://android.googlesource.com/platform/external/protobuf
   git clone https://android.googlesource.com/platform/external/sqlite
+  git clone https://android.googlesource.com/platform/frameworks/opt/emoji android-emoji
   cd voip
   git checkout android-4.4.4_r2.0.1
   cd ..
@@ -158,6 +159,9 @@ for all of the above:
   git checkout android-4.4.4_r2.0.1
   cd ..
   cd sqlite
+  git checkout android-4.4.4_r2.0.1
+  cd ..
+  cd android-emoji
   git checkout android-4.4.4_r2.0.1
   cd ..
 
