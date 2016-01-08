@@ -10,14 +10,14 @@ We currently have:
 
 
 
-10.7.
+10.7.2014
 
 (6:32:00 PM) ingwa2_: What to expect from the updates would be a more or less complete dalvik bytecode interpreter.
 (6:32:22 PM) ingwa2_: There are 9 parts of it, of which 2 are building in the current checked-in sources. 
 
 
 
-11.7.
+11.7.2014
 
 Currently the entire dalvik system builds including the tools. What we are 
 left with is a complete system with headers, libraries and binaries installed 
@@ -58,7 +58,7 @@ consulting mailing list archives for hints and ideas.
 
 
 
-15.5.
+15.5.2014
 
 
 I have the dalvik stack building and have been working on the runtime bits 
@@ -81,7 +81,7 @@ of those hooks as they are exactly what we need :)
 
 
 
-25.4.
+25.4.2014
 
 
 == Planning and research
@@ -140,9 +140,7 @@ on the Plasma integration, but I can't yet promise that.
 
 
 
-
-
-23.4.
+23.4.2014
 
 Just another quick update: all the legwork I did up until now is finally paying 
 off. I'm already into building dalvik itself. There was more porting work than 
@@ -153,9 +151,8 @@ few important barriers and am on to parts of the dalvik runtime itself.
 
 
 
+18.4.2014
 
-
-18.4.
 lots of initial work to get to the starting point. 
 
 I have not synced anything to the git repo because I will actually need at 
@@ -189,7 +186,6 @@ everything. (Perhaps more repos .. but currently I am managing to keep other
 depedencies out .. there is a LOT of old and odd cruft in these repositories, 
 things from the early days of android and even things for hardware platforms 
 and operating systems we do not need to support)
-
 
 
 
@@ -295,6 +291,7 @@ launcher integration, windowed modes, etc. Some of these things will be a bit
 factors Plasma supports map to the Android concept. This is why Google does 
 not use Android for their Chrome Books, for instance. In any case, I've 
 compiled a short list of targets for this as well.
+
 
 
 1.4.2014
