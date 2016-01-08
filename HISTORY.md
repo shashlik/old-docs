@@ -1,4 +1,4 @@
-13.7.2014
+13.7.2014 - Inge Wallin
 
 
 We currently have:
@@ -9,15 +9,12 @@ We currently have:
 * complete documentation on the build system and how to make that go
 
 
-
-10.7.2014
-
 (6:32:00 PM) ingwa2_: What to expect from the updates would be a more or less complete dalvik bytecode interpreter.
 (6:32:22 PM) ingwa2_: There are 9 parts of it, of which 2 are building in the current checked-in sources. 
 
 
 
-11.7.2014
+11.7.2014 - Aaron Seigo
 
 Currently the entire dalvik system builds including the tools. What we are 
 left with is a complete system with headers, libraries and binaries installed 
