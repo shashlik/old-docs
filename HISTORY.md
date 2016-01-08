@@ -55,7 +55,7 @@ took brute-force experimentation and reading through the sources while
 consulting mailing list archives for hints and ideas.
 
 
-
+----
 
 15.5.2014
 
@@ -79,6 +79,7 @@ deploy for testing once the application basically works. I'm taking advantage
 of those hooks as they are exactly what we need :)
 
 
+----
 
 25.4.2014
 
@@ -138,6 +139,7 @@ within the next month's hours. I might have time next month to already start
 on the Plasma integration, but I can't yet promise that.
 
 
+----
 
 23.4.2014
 
@@ -148,7 +150,7 @@ libc (bionic) in subtle ways), but I'm getting there and have broken through a
 few important barriers and am on to parts of the dalvik runtime itself.
 
 
-
+----
 
 18.4.2014
 
@@ -188,7 +190,7 @@ and operating systems we do not need to support)
 
 
 
-
+----
 
 9.4.2014
 
@@ -292,6 +294,7 @@ not use Android for their Chrome Books, for instance. In any case, I've
 compiled a short list of targets for this as well.
 
 
+----
 
 1.4.2014
 
