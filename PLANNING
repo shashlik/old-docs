@@ -55,17 +55,17 @@ Android sources are organized. But right now this is the best estimate.
 
 Development Activities
  + Create Launcher
-    - Build the parts from zygote that will be reused   STEP 1: 1 week  (0.5 due July, 24th)
-    - Write porting code                                STEP 2: 2 weeks (0.6 due August, 7th)
+    - Build the parts from zygote that will be reused   STEP 1: 1 week  (0.5 due July, 24th 2014)
+    - Write porting code                                STEP 2: 2 weeks (0.6 due August, 7th 2014)
        . Start VM
        . Load system java classes
        . Load application provided classes
        . Load application
- + Write a Java Native Interface (JNI)                  STEP 3: 2 weeks (0.7 due August, 21st)
+ + Write a Java Native Interface (JNI)                  STEP 3: 2 weeks (0.7 due August, 21st 2014)
     This includes the input from kbd and touch
- + Write "Surface Flinger"                              STEP 4: 1 week  (0.8 due August, 28th)
+ + Write "Surface Flinger"                              STEP 4: 1 week  (0.8 due August, 28th 2014)
 
 
 ================================================================
-Goal: Flappy bird flies                                          6 weeks (0.8 due August, 28th)
+Goal: Flappy bird flies                                          6 weeks (0.8 due August, 28th 2014)
 ================================================================
