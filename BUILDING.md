@@ -1,9 +1,8 @@
-This file describes how to build Shashlik, the simulated Android environment.
+#This file describes how to build Shashlik, the simulated Android environment.
 
 
 
-Getting the Sources
-===================
+#Getting the Sources
 
 Shashlik uses Dalvik, the Android runtime interpreter, to run the
 applications.  In addition to Dalvik itself we need to have a number of
@@ -19,18 +18,18 @@ The source trees should be placed next to each other in a common subdirectory,
 e.g. $HOME/SHASHLIK or something similar.  In the rest of this file we will
 assume that you are using this location.  If not, you will have to adjust the
 instructions below accordingly.
-
+```
   cd
   mkdir SHASHLIK
   cd SHASHLIK
-
+```
 Create the main directory for the sources. We recommend using a separate
 directory for the source tree because you will also have the install directory
 at this level (see below under Building the sources).
-
+```
   mkdir src
   cd src
-
+```
 Then proceed to download the git and svn repositories as follows.  
 
 
@@ -46,7 +45,7 @@ is created in the 9th repository of the project named (surprise!) shaslik.
 The main page of the project is https://github.com/shashlik. Here you will
 find links to all 9 repositories. Since the shashlik repos are private you
 will need to give your username and password to clone them.
-
+```
   git clone https://github.com/shashlik/shashlik.git
   git clone --branch shashlik-kitkat https://github.com/shashlik/dalvik.git
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-core.git
@@ -56,8 +55,8 @@ will need to give your username and password to clone them.
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-libnativehelper.git
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-telephony.git
   git clone --branch shashlik-kitkat https://github.com/shashlik/android-skia.git
-
-2. safe-iop
+```
+2. Safe-IOP
 
 Safe IOP is also a Google library which is described like this on the project
 home page at https://code.google.com/p/safe-iop/:
@@ -67,17 +66,17 @@ home page at https://code.google.com/p/safe-iop/:
     straightforward API."
 
 This library is kept in subversion. To check it out, do the following:
-
+```
   svn checkout http://safe-iop.googlecode.com/svn/trunk/ safe-iop
   cd safe-iop
   svn switch http://safe-iop.googlecode.com/svn/tags/r0.3.1
   cd ..
-
+```
 We will use a specific release, in this case 0.3.1, to get a stable platform.
 This is the reason for the svn switch.
 
 
-3. bionic
+3. Bionic
 
 Bionic is a derivation of the BSD's standard C library code that was
 originally developed by Google for their Android[2] operating system
@@ -88,41 +87,42 @@ project to port Dalvik to GNU libc.
 There is a project called dvk (https://code.google.com/p/dvk/) whose goal is
 to port dalvik to other CPU architectures and away from needing bionic but we
 have not gone down that route.
-
+```
   git clone https://android.googlesource.com/platform/bionic
-
+```
 We use the kitkat tag for this one, meaning you need to run:
-
+```
   cd bionic
   git checkout android-4.4.4_r2.0.1
   cd ..
+```
+Which will leave you with a detached head
 
-which will leave you with a detached head
 
-
-4. openssl
+4. OpenSSL
 
 openssl is the premiere secure socket layer library used by free software projects,
 and android has made certain modifications to it which makes it difficult to simply
 use the one provided by most linux distributions. So, we use theit modified version.
-
+```
   git clone https://android.googlesource.com/platform/external/openssl
   cd openssl
   git checkout android-4.4.4_r2.0.1
   cd ..
-
+```
 5. ext libraries
 
 A set of java libraries used by android and packed together into one jar.
-
+```
   git clone https://android.googlesource.com/platform/external/nist-sip
   git clone https://android.googlesource.com/platform/external/apache-http
   git clone https://android.googlesource.com/platform/external/tagsoup
   git clone https://android.googlesource.com/platform/external/libphonenumber
   git clone https://android.googlesource.com/platform/external/okhttp
   git clone https://android.googlesource.com/platform/external/bouncycastle
-
+```
 for all of the above:
+```
   cd nist-sip
   git checkout android-4.4.4_r2.0.1
   cd ..
@@ -141,9 +141,9 @@ for all of the above:
   cd bouncycastle
   git checkout android-4.4.4_r2.0.1
   cd ..
-
+```
 6. jni requirements
-
+```
   git clone https://android.googlesource.com/platform/frameworks/opt/net/voip
   git clone https://android.googlesource.com/platform/external/liblzf
   git clone https://android.googlesource.com/platform/external/protobuf
@@ -168,17 +168,19 @@ for all of the above:
   cd android-build
   git checkout android-4.4.4_r2.0.1
   cd ..
-
+  ```
   We also require the Android 5.1 version of libhardware and master head of android
   core (for libbase)
+  ```
   git clone https://android.googlesource.com/platform/hardware/libhardware
   git clone https://android.googlesource.com/platform/system/core core-head
   cd libhardware
   git checkout android-5.1.0_r1
   cd ..
-
+```
   The following libraries are not currently used, but will be required once RenderScript
   support is functional.
+  ```
   git clone https://android.googlesource.com/platform/frameworks/compile/libbcc
   git clone https://android.googlesource.com/platform/frameworks/rs
   cd libbcc
@@ -187,34 +189,34 @@ for all of the above:
   cd rs
   git checkout android-4.4.4_r2.0.1
   cd ..
-
+```
 7. Graphics assistance libraries
 
 These libraries are an attempt to get SurfaceFlinger to work on normal Linux, and so
 we piggyback on that work. Minor changes have been made to the drm_gralloc module, and
 until those are upstreamed or otherwise fixed, we keep a local clone of it.
-
+```
   git clone https://android.googlesource.com/platform/hardware/libhardware_legacy
   git clone git://anongit.freedesktop.org/mesa/mesa
   git clone https://github.com/shashlik/drm_gralloc.git
   cd drm_gralloc
   git checkout lollipop-x86
   cd ..
-
+```
 The following are from https://wiki.linaro.org/BenjaminGaignard/HWComposer_DRM and
 they are a part of an attempt to get things running on a full blood linux as well
 which of course aligns very well with our efforts.
-
+```
   git clone git://git.linaro.org/people/benjamin.gaignard/gralloc.git
   git clone https://github.com/shashlik/hwcomposer-linaro.git hwcomposer
-
+```
 8. Gentroid
 
 This code is a clone and modification of the gentroid code, used in the leinir2 branch
 to build jni
-
+```
   git clone https://github.com/shashlik/gentroid-frameworks-base.git
-
+```
 9. JarJar
 
 This is a tool used for doing modifications to jar files, such as relocating packages
@@ -224,10 +226,10 @@ Leave this file in the base source directory so the build system can find it. As
 code is shutting down, this may need to relocate at some point (other mirrors exist,
 but this is the canonical release address for the file)
 
+```
 wget https://jarjar.googlecode.com/files/jarjar-1.4.jar
-
-Building the Sources
-====================
+```
+#Building the Sources
 
 The goal of Shashlik is to create a stand-alone Android runtime
 environment. This basically means Dalvik with a number of support features
@@ -241,7 +243,7 @@ libraries so by selecting to build only those classes that are actually needed
 we can keep down the number of repositories that we need to check out.
 
 In this description we assume that you have downloaded the sources above and
-that they are all in $HOME/shashlik. 
+that they are all in ```$HOME/shashlik```. 
 
 At this time the instructions assume that you are building on a standard Linux
 desktop system with an installed software development kit. Refer to your
@@ -289,6 +291,7 @@ a variety of components that might not be on everybodys computers:
    (always) 32 bit android runtime
 
    for openSuse, you can run the following commands to get what you need:
+   ```
    sudo zypper install -t pattern devel_c_cpp devel_java devel_qt5 devel_kde_frameworks
    sudo zypper install libharfbuzz0-32bit libharfbuzz-icu0-32bit glibc-devel-32bit \
         libstdc++-devel-32bit gcc-32bit gcc-c++-32bit libwebp-devel libwebpdecoder1-32bit \
@@ -300,7 +303,7 @@ a variety of components that might not be on everybodys computers:
         java-1_7_0-openjdk-devel jarjar libselinux-devel \
         libQt5Widgets-devel-32bit  libqt5-qtx11extras-devel-32bit \
         libwayland-egl-devel-32bit kwayland-devel-32bit
-
+```
 This instruction will from here on assume that you have these installed
 correctly.  If not, you will have to install them (probably build yourself)
 using their respective installation instructions.
@@ -309,12 +312,12 @@ NOTE: Even after installing Qt5.3 and KF5 correctly for normal usage you will
       still have to add a specific environment variable to be able to use them
       for development using CMake:
 
-        export CMAKE_PREFIX_PATH=$KF5:$CMAKE_PREFIX_PATH
+        ```export CMAKE_PREFIX_PATH=$KF5:$CMAKE_PREFIX_PATH```
 
 We also suggest to create an environment variable with the path of the
 Shashlik top directory.
 
-  export SHASHLIK=$HOME/SHASHLIK
+  ```export SHASHLIK=$HOME/SHASHLIK```
 
 In the rest of this document we shall use this variable in our examples.
 
@@ -363,8 +366,8 @@ do so by creating a SHASHLIK/install directory. Note that the install directory
 should be _outside_ the shashlik repo source tree but under the SHASHLIK top
 directory.
 
-  cd $SHASHLIK
-  mkdir install
+  ```cd $SHASHLIK
+  mkdir install```
 
 For building, the procedure is in itself similar to how you normally compile
 any other cmake based project, however the directory structure is vital. The
@@ -392,11 +395,11 @@ be creating, all the others are git clones (and that one svn checkout):
 Lastly you will have to build the shashlik sources that depend on the selected
 Android libraries that were created in the builddeps directory. This is done
 in the $SHASHLIK/src/shashlik/build/ directory and it is really easy:
-
+```
   cd $SHASHLIK/src/shashlik/build
   cmake .. -DCMAKE_INSTALL_PREFIX=$SHASHLIK/install
   make install
-
+```
 
 The main control for the shashlik android runtime is shashlik-controller, the
 only binary installed outside of the android root. Run this command with --help
@@ -404,5 +407,7 @@ to see what options you've got. This binary currently makes assumptions regardin
 the setup of your system. These assumptions will be removed at a later date.
 
 To run an application, run as follows:
+```
 shashlik-controller --start
 shashlik-controller --launchapk=/path/to/apk-file.apk
+```
